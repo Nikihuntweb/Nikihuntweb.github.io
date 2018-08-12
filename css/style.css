@@ -1,0 +1,190 @@
+@font-face{
+    font-family: "Tangak";
+    src: url("../font/tangak/tangak1.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.pink{
+    color: #f74870;
+}
+
+.fast{
+    font-size: 36px;
+}
+
+/*** header ***/
+
+header{
+    min-height: 100vh;
+    background: url("../img/header-fon-2.png") no-repeat center;
+    background-size: cover;
+    padding-top: 51px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4px 0 5px 0;
+}
+
+.header-top__left, .header-top__right{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-family: "Tangak";
+    color: #f74870;
+    line-height: 1.25;
+    margin-right: 35px;
+    position: relative;
+}
+
+.logo::before{
+    top: -21px;
+    left: 19px;
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 27px;
+    background: url("../img/hat.png") no-repeat center;
+}
+
+.logo-min{
+    font-size: 18px;
+}
+
+
+.logo-desc{
+    font-family: "PT Sans";
+    font-weight: 400;
+    line-height: 1.688;
+}
+
+.number{
+    font-family: "PT Sans";
+    font-weight: 700;
+    color: #000;
+    margin-right: 17px;
+    font-size: 16px;
+    padding-left: 25px;
+    background: url("../img/phone.png") no-repeat left center;
+}
+
+.call-back{
+    font-family: "PT Sans";
+    font-size: 16px;
+    color: #f74870;
+}
+
+.call-back:hover{
+    text-decoration: none;
+}
+
+.header-mid{
+    padding-top: 79px;
+}
+
+.header-block p{
+    font-family: "Lora";
+    font-size: 28px;
+    line-height: 1.7;
+}
+
+.header-block .fast{
+    font-weight: 700;
+    line-height: 1;
+}
+
+.header-block__description{
+    font-size: 16px;
+    font-family: "PT Sans";
+    color: #000;
+    line-height: 2;
+    margin-top: 10px;
+}
+
+.btn-over{
+    background: black;
+    padding: 7px;
+    display: flex;
+    background: rgba(246, 116, 143, 0.18);
+    max-width: 350px;
+    border-radius: 50px;
+    border: 1px solid #eaaebe;
+    position: relative;
+}
+
+header .btn-over::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 124px;
+    height: 79px;
+    background: url(../img/white-feaher-png.png) no-repeat center;
+    bottom: -29px;
+    left: -27px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 18px;
+    outline: 0;
+    border: none;
+    height: 96px;
+    width: 336px;
+    border-radius: 50px;
+    background: url() no-repeat
+    background-image: -webkit-linear-gradient(left, rgb(242,62,105) 0%, rgb(248,98,130) 100%);
+    background-image: -o-linear-gradient(left, rgb(242,62,105) 0%, rgb(248,98,130) 100%);
+    background-image: linear-gradient(to right, rgb(242,62,105) 0%, rgb(248,98,130) 100%);
+    box-shadow: 0px 31px 61.1px 3.9px rgba(249, 183, 193, 0.55);
+    cursor: pointer;
+    position: relative;
+}
+
+.btn::before{
+    content: "";
+    display: block;
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+    background: url("../img/price-tag.png") no-repeat center;
+}
+
+header .btn-over{
+    margin-top: 58px;
+}
+
+/*** brand ***/
+
+.brand{
+    background: url("../img/wicker-flowe%20-pot.png") no-repeat left bottom;
+    min-height: 100vh;
+}
+
+
+
+
+
+
+
+
+
